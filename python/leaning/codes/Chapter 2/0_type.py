@@ -70,7 +70,7 @@ match = re.match('/(.*)/(.*)/(.*)', '/usr/home/bright')
 print(match.groups())
 
 # 3. list
-l = [123, 'abc', 1.2]
+l = [123, 'abc', 1.2] # you can use different type in list
 print(l)
 print(len(l))
 print(l[0])
@@ -82,3 +82,17 @@ l.append('NI')
 print(l)
 l.pop()
 print(l)
+l.append('abc')
+print(l)
+l.pop()
+l.sort() #if you use sort function, the list should contains same type
+print(l)
+l.reverse()
+print(l)
+# 3.1 multi-dimmension array
+m = [[1, 2, 3],
+     [4, 5, 6],
+     [7, 8, 9]]
+print(m)
+print(m[1])
+print(m[1][2])
